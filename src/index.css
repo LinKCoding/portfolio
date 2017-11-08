@@ -14,12 +14,23 @@ h1 {
   font-size: 60px;
 }
 
+.ui.center.aligned.header.modal-Title {
+  font-family: 'Fredericka the Great', sans-serif;
+  font-weight: normal;
+  color: white;
+  font-size: 40px;
+}
+
 #wrapper {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-div .ui.segment.project {
+.ui.segment.project {
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ui.segment.modal-Segment {
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .ui.horizontal.inverted.Header {
@@ -38,7 +49,7 @@ div .ui.segment.project {
 
 .Expanded {
   color: white;
-  font-family: 'Fredericka the Great';
+  font-family: arial;
 }
 
 #languages {

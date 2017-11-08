@@ -13,22 +13,22 @@ const Icons = () => {
         </Grid.Column>
         <Grid.Column>
           <a href="https://github.com/LinKCoding" target="_blank" rel="noopener noreferrer">
-            <Icon inverted name="github square" size='big'/>
+            <Icon inverted name="github square" size='big' link/>
           </a>
         </Grid.Column>
         <Grid.Column>
           <a href="https://www.linkedin.com/in/kenny-lin-developer/" target="_blank" rel="noopener noreferrer">
-            <Icon inverted name="linkedin square" size='big'/>
+            <Icon inverted name="linkedin square" size='big' link/>
           </a>
         </Grid.Column>
         <Grid.Column>
           <a href="kenny.lin@flatironschool.com">
-            <Icon inverted name="mail" size='big'/>
+            <Icon inverted name="mail" size='big' link/>
           </a>
         </Grid.Column >
         <Grid.Column>
           <a href="https://medium.com/@kenny.lin" target="_blank" rel="noopener noreferrer">
-            <Icon inverted name="medium" size='big'/>
+            <Icon inverted name="medium" size='big' link/>
           </a>
         </Grid.Column >
       </Grid>
