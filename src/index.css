@@ -18,6 +18,20 @@ h1 {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+div .ui.segment.project {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ui.horizontal.inverted.Header {
+  font-size: 20px;
+  color: white;
+}
+
+.Description {
+  color: white;
+  font-family: courier;
+}
+
 #languages {
   font-family: courier;
 }

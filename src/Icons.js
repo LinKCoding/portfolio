@@ -22,7 +22,9 @@ const Icons = () => {
           </a>
         </Grid.Column>
         <Grid.Column>
-          <Icon inverted name="mail" size='big'/>
+          <a href="kenny.lin@flatironschool.com">
+            <Icon inverted name="mail" size='big'/>
+          </a>
         </Grid.Column >
         <Grid.Column>
           <a href="https://medium.com/@kenny.lin" target="_blank" rel="noopener noreferrer">

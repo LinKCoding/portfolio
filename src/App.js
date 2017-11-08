@@ -12,9 +12,7 @@ class App extends Component {
         <Grid className="App">
           <Grid.Column className="Picture-Icons" width={3}>
             <Grid.Row className="Picture">
-              <Segment>
-                <Image src ="profile_pic.jpg" />
-              </Segment>
+              <Image src="profile_pic.jpg" rounded bordered/>
             </Grid.Row>
             <Divider fitted />
             <Bio />
