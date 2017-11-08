@@ -4,8 +4,7 @@ import { Grid } from 'semantic-ui-react'
 const Bio = () => {
   return(
     <Grid.Column width={8}>
-      <h1> Kenny Lin</h1>
-      <h3> Life long learner and educator <br/> integrating passions: education and web development </h3>
+      <p id="bio"> Lifelong learner and educator <br/> Integrating education and web development </p>
     </Grid.Column>
   )
 }
