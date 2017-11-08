@@ -1,8 +1,8 @@
 import React from 'react'
-import Scite from './Scite'
-import Recipe from './Recipe'
-import Kofetcher from './Kofetcher'
-import ImdbClone from './ImdbClone'
+import Scite from './projects/Scite'
+import Recipe from './projects/Recipe'
+import Kofetcher from './projects/Kofetcher'
+import ImdbClone from './projects/ImdbClone'
 
 import { Grid } from 'semantic-ui-react'
 

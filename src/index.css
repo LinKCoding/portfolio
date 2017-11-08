@@ -27,9 +27,18 @@ div .ui.segment.project {
   color: white;
 }
 
+.ui.compact.bottom.attached.button {
+  font-family: 'Fredericka the Great';
+}
+
 .Description {
   color: white;
   font-family: courier;
+}
+
+.Expanded {
+  color: white;
+  font-family: 'Fredericka the Great';
 }
 
 #languages {
