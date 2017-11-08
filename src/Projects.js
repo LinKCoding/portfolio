@@ -1,6 +1,6 @@
 import React from 'react'
 import Scite from './projects/Scite'
-import Recipe from './projects/Recipe'
+import ReSearch from './projects/ReSearch'
 import Kofetcher from './projects/Kofetcher'
 import ImdbClone from './projects/ImdbClone'
 
@@ -12,7 +12,7 @@ class Projects extends React.Component {
       <Grid.Row>
         <Grid columns={4}>
           <Scite />
-          <Recipe />
+          <ReSearch />
           <Kofetcher />
           <ImdbClone />
         </Grid>
