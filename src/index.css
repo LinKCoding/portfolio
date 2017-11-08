@@ -9,6 +9,7 @@ body {
 
 h1 {
   font-family: 'Fredericka the Great', sans-serif;
+  font-weight: normal;
   color: white;
   font-size: 60px;
 }
@@ -25,4 +26,8 @@ h1 {
   font-size: 15px;
   text-align: center;
   color: rgb(200, 200, 200);
+}
+
+#skills {
+  font-size: 45px;
 }

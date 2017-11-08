@@ -13,28 +13,23 @@ class App extends Component {
           <Grid.Column className="Picture-Icons" width={3}>
             <Grid.Row className="Picture">
               <Segment>
-                <Image src ="profile.jpg" />
+                <Image src ="profile_pic.jpg" />
               </Segment>
             </Grid.Row>
             <Divider fitted />
-            <Grid.Row>
-              <Bio />
-            </Grid.Row>
+            <Bio />
             <Divider fitted />
-            <Grid.Row>
-              <Icons />
-            </Grid.Row>
+            <Icons />
           </Grid.Column>
+
           <Grid.Column className="Name-Languages-Projects" width={13}>
             <Grid.Row>
               <h1> Kenny Lin</h1>
             </Grid.Row>
-            <Grid.Row>
-              <Languages />
-            </Grid.Row>
-            <Grid.Row>
-              <Projects />
-            </Grid.Row>
+            <Divider fitted />
+            <Languages />
+            <Divider fitted />
+            <Projects />
           </Grid.Column>
         </Grid>
       </Segment>

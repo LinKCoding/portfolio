@@ -1,14 +1,24 @@
 import React from 'react'
+import { Grid } from 'semantic-ui-react'
 
 const Languages = () => {
   return(
-    <div id="languages">
-      Languages: ["JavaScript", "Ruby", "SQL", "HTML5", "CSS"]
-      <br/>
-      Frameworks: ["React", "Ruby on Rails"]
-      <br/>
-      Libraries: ["ActiveRecord", "Draft.js", "Semantic-UI"]
-    </div>
+    <Grid.Row>
+      <Grid columns='equal'>
+        <Grid.Column width={3}>
+          <p id="skills">
+            Skills:
+          </p>
+        </Grid.Column>
+        <Grid.Column id="languages">
+          Languages: ["JavaScript", "Ruby", "SQL", "HTML5", "CSS"]
+          <br/>
+          Frameworks: ["React", "Ruby on Rails", "Sinatra"]
+          <br/>
+          Libraries: ["ActiveRecord", "Draft.js", "Semantic-UI"]
+        </Grid.Column>
+      </Grid>
+    </Grid.Row>
   )
 }
 
