@@ -34,8 +34,9 @@ h1 {
 }
 
 .ui.horizontal.inverted.Header {
-  font-size: 20px;
+  font-size: 1.3em;
   color: white;
+
 }
 
 .ui.compact.bottom.attached.button {
