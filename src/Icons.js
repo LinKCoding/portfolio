@@ -22,7 +22,7 @@ const Icons = () => {
           </a>
         </Grid.Column>
         <Grid.Column>
-          <a href="kenny.lin@flatironschool.com">
+          <a href="mailto:kenny.lin@flatironschool.com">
             <Icon inverted name="mail" size='big' link/>
           </a>
         </Grid.Column >
