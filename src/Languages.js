@@ -15,7 +15,7 @@ const Languages = () => {
           <br/>
           Frameworks: ["React", "Ruby on Rails", "Sinatra"]
           <br/>
-          Libraries: ["Redux","ActiveRecord", "Draft.js", "Semantic-UI"]
+          Libraries: ["Redux", "ActiveRecord", "Draft.js", "Semantic-UI"]
         </Grid.Column>
       </Grid>
     </Grid.Row>
