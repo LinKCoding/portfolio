@@ -1,5 +1,5 @@
 import React from 'react'
-import ReSearchModal from './modals/ReSearchModal'
+import ReFindModal from './modals/ReFindModal'
 import { Grid, Image, Segment, Divider } from 'semantic-ui-react'
 
 class ReSearch extends React.Component {
@@ -7,9 +7,9 @@ class ReSearch extends React.Component {
     return(
       <Grid.Column width={4}>
         <Segment className="project">
-          <Image src='research-thumbnail.png'/>
+          <Image src='reFind-thumbnail.png'/>
           <Divider horizontal inverted className="Header"> Re-Find </Divider>
-          <ReSearchModal />
+          <ReFindModal />
         </Segment>
       </Grid.Column>
     )

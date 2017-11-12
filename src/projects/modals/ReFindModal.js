@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Modal, Segment, Grid, Divider, Image, Header, Icon } from 'semantic-ui-react'
 
-const ReSearchModal = () => {
+const ReFindModal = () => {
   return(
     <Modal closeIcon trigger={<Button compact size="mini" attached="bottom">Learn More</Button>}>
       <Segment clearing style={{height:"80vh"}} className="modal-Segment">
@@ -10,7 +10,7 @@ const ReSearchModal = () => {
         </Header>
 
         <Divider fitted />
-        <Image src="research-thumbnail.png" rounded/>
+        <Image src="reFind-thumbnail.png" rounded/>
 
         <Divider fitted />
         <br/>
@@ -40,4 +40,4 @@ const ReSearchModal = () => {
   )
 }
 
-export default ReSearchModal
+export default ReFindModal
