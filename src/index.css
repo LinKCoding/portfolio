@@ -25,6 +25,16 @@ h1 {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.ui.horizontal.inverted.Header {
+  font-size: 1.3em;
+  color: white;
+}
+
+.ui.modal.transition.visible.active {
+  /*this gets rid of that white bar on top of modals*/
+  background-color: black;
+}
+
 .ui.segment.project {
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -33,11 +43,6 @@ h1 {
   background-color: rgba(0, 0, 0, 0.95);
 }
 
-.ui.horizontal.inverted.Header {
-  font-size: 1.3em;
-  color: white;
-
-}
 
 .ui.compact.bottom.attached.button {
   font-family: 'Fredericka the Great';

@@ -4,7 +4,7 @@ import { Button, Modal, Segment, Grid, Divider, Image, Header, Icon } from 'sema
 const ReFindModal = () => {
   return(
     <Modal closeIcon trigger={<Button compact size="mini" attached="bottom">Learn More</Button>}>
-      <Segment clearing style={{height:"80vh"}} className="modal-Segment">
+      <Segment clearing className="modal-Segment">
         <Header as='h2' textAlign='center' className="modal-Title">
           Re-Find
         </Header>
