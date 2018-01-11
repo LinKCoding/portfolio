@@ -12,6 +12,7 @@ class Projects extends React.Component {
   render(){
     return(
       <Grid.Row>
+        <ProjectList />
         <Grid columns={4}>
           <Scite />
           <ReFind />
