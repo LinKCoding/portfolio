@@ -1,6 +1,6 @@
 const AllProjects = [
   {
-    title: "Scite (Science-Note)",
+    title: "Scite",
     image: "scite-thumbnail.png",
     description: "Scite was made with students in mind. Users can browse through various articles and create a scite using their personal note editor, lexicon, and dictionary to help guide them along. They can always go back and check their old notes and lexicon collection and edit them.",
     languages:["JavaScript", "React", "Draft.js", "Redux", "Ruby on Rails", "PostgreSQL"],
