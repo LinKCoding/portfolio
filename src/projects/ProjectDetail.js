@@ -6,7 +6,7 @@ class ProjectDetail extends React.Component {
   render(){
     const {project} = this.props
     return(
-      <Grid.Column width={4}>
+      <Grid.Column width={5}>
         <Segment className="project">
           <Image src={project.image}/>
           <Divider horizontal inverted className="Header"> {project.title} </Divider>
