@@ -3,14 +3,14 @@ import { Grid } from 'semantic-ui-react'
 
 const Languages = () => {
   return(
-    <Grid.Row>
+    <Grid.Row stackable>
       <Grid columns='equal'>
         <Grid.Column width={3}>
           <p id="skills">
             Skills:
           </p>
         </Grid.Column>
-        <Grid.Column id="languages">
+        <Grid.Column id="languages" stackable>
           Languages: ["JavaScript", "Ruby", "SQL", "HTML5", "CSS"]
           <br/>
           Frameworks: ["React", "Ruby on Rails", "Sinatra"]
