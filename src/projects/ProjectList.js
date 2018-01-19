@@ -6,7 +6,7 @@ import { Grid } from 'semantic-ui-react'
 class ProjectList extends React.Component {
   render(){
     return(
-      <Grid columns={4}>
+      <Grid columns={4} stackable>
         {AllProjects.map(project => {
           return <ProjectDetail project={project} />
         })}
